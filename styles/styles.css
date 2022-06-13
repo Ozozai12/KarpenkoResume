@@ -19,7 +19,7 @@ body {
 .main__content {
 	background-color: #ffffff;
 	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
-	padding: 105px 90px;
+	padding: 70px 90px;
 }
 
 /* about slyles */
@@ -49,15 +49,15 @@ body {
 
 /* project styles */
 
-.projects {
-	padding-bottom: 50px;
-}
-
 .title {
 	font-weight: bold;
 	font-size: 22px;
-	
+	padding: 0;
 	margin-bottom: 10px;
+}
+
+.projects {
+	padding-bottom: 30px;
 }
 
 .projects__list {
@@ -85,7 +85,7 @@ body {
 }
 /* work styles */
 .work {
-	padding-bottom: 50px;
+	padding-bottom: 30px;
 }
 
 .work__list {
