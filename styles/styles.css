@@ -1,0 +1,198 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-style: normal;
+	color: #000000;
+	font-size: 14px;
+	line-height: 1.22;
+
+	background-color: #f5f7fa;
+}
+
+/* main styles */
+.main {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.main__content {
+	background-color: #ffffff;
+	box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+	padding: 105px 90px;
+}
+
+/* about slyles */
+
+.about {
+	margin-bottom: 40px;
+}
+
+.about__position {
+	font-weight: bold;
+		
+	margin-bottom: 20px;
+}
+
+.about__name {
+	font-weight: bold;
+	font-size: 45px;
+		
+	margin-bottom: 25px;
+}
+
+.about__discription {
+	line-height: 2;
+	color: #595959;
+	width: 400px;
+}
+
+/* project styles */
+
+.projects {
+	padding-bottom: 50px;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 22px;
+	
+	margin-bottom: 10px;
+}
+
+.projects__list {
+	padding: 0;
+	margin-left: 15px;
+}
+
+.projects__item {
+	font-weight: bold;
+	line-height: 1.71;
+}
+
+.projects__description,
+.projects__link {
+	color: #595959;
+}
+
+.projects__link {
+	margin-left: 10px;
+}
+
+.projects__brecket {
+	font-weight: bold;
+	line-height: 0.71;
+}
+/* work styles */
+.work {
+	padding-bottom: 50px;
+}
+
+.work__list {
+	padding: 0;
+	margin-left: 15px;
+	color: #595959;
+}
+
+.work__activity {
+	line-height: 1.71;
+	color: #595959;
+}
+
+.work__position {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.25;
+	
+	margin-bottom: 10px;
+}
+
+.organization {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #fb6d3a;
+}
+
+.period {
+	font-size: 12px;
+	line-height: 1.25;
+	color: #a8a8a8;
+
+	margin-bottom: 10px;
+}
+
+.line {
+	font-size: 12px;
+	line-height: 1.25;
+}
+
+/* education styles */
+.education__organization {
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 1.25;
+	color: #fb6d3a;
+}
+
+.facultat {
+	font-weight: bold;
+}
+
+/* sidebar */
+.sidebar {
+	background-color: #1e2939;
+	padding-top: 40px;
+	width: 370px;
+}
+
+.photo {
+	width: 370px;
+	margin-bottom: 50px;
+}
+
+.sidebar__title {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 22px;
+	
+	margin-bottom: 10px;
+}
+
+.contacts,
+.techskills,
+.softskills {
+	margin-left: 40px;
+	margin-bottom: 45px;
+}
+
+.addskills {
+	margin-left: 40px;
+}
+
+.contacts__type {
+	font-weight: bold;
+	line-height: 1.71;
+	color: #ffffff;
+
+	margin-right: 10px;
+}
+
+.contacts__link {
+	line-height: 1.71;
+	color: #a8a8a8;
+}
+
+.skills__list {
+	color: #fb6d3a;
+	padding: 0;
+	margin-left: 17px;
+}
+
+.skills__item {
+	color: #ffffff;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+}
