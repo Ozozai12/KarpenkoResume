@@ -14,11 +14,17 @@
     <title>Artem Karpenko Resume</title>
   </head>
   <body>
-    <!--Main-->
+    <div class="container">
+    <div class="languages">
+        <button type="button" class="ukr button"></button>
+        <button type="button" class="eng button"></button>
+      </div>
+    
     <div class="main">
-      <!--Main content-->
+      
+      
       <div class="main__content">
-        <!--About me-->
+        
         <div class="about">
           <h2 class="about__position">Front-End Developer</h2>
           <h1 class="about__name">Artem Karpenko</h1>
@@ -28,7 +34,7 @@
             practice. Below you can see examples of my work. <br />
           </p>
         </div>
-        <!--Projects-->
+        
         <div class="projects">
           <h3 class="title">Projects</h3>
           <ul class="projects__list">
@@ -41,13 +47,13 @@
                   rel="noopener noreferrer nofollow"
                   >WebStudio</a
                 >
-                ...........................................................................................
+                ............................................................................................
                 <span class="projects__brecket">[</span> HTML5, CSS3
                 <span class="project-brecket">]</span>
               </span>
             </li>
             <li class="projects__item">
-              <span class="projects__description"
+              <span class="projects__description" id="donuts"
                 ><a
                   href="https://ozozai12.github.io/donuts/"
                   class="projects__link"
@@ -61,7 +67,7 @@
               </span>
             </li>
             <li class="projects__item">
-              <span class="projects__description"
+              <span class="projects__description" id="filmoteka"
                 ><a
                   href="https://ozozai12.github.io/filmoteka/"
                   class="projects__link"
@@ -76,16 +82,16 @@
             </li>
           </ul>
         </div>
-        <!--Work-->
+        
         <div class="work">
           <h3 class="title">Work Expirience</h3>
-          <!--Company1-->
+          
           <div>
-            <h4 class="work__position">
+            <h4 class="work__position" id="fotofon">
               Backdrops maker (individual entrepreneur)
               <span class="organization">Fotofon.Dream</span>
             </h4>
-            <p class="period">
+            <p class="period" id="fotofon-period">
               June 2016 - up to now <span class="line">|</span> Ukraine
             </p>
             <ul class="work__list">
@@ -104,12 +110,12 @@
               <li class="work__activity">SEO for an Etsy account.</li>
             </ul>
           </div>
-          <!--Company2-->
+          
           <div>
-            <h4 class="work__position">
+            <h4 class="work__position" id="alviss">
               Constructor <span class="organization">Alviss</span>
             </h4>
-            <p class="period">
+            <p class="period" id="alviss-period">
               May 2015 - June 2016 <span class="line">|</span> Ukraine
             </p>
             <ul class="work__list">
@@ -127,12 +133,12 @@
               <li class="work__activity">Author's supervision.</li>
             </ul>
           </div>
-          <!--Company3-->
+          
           <div>
-            <h4 class="work__position">
+            <h4 class="work__position" id="coffeeman">
               Serviceman <span class="organization">Coffeeman</span>
             </h4>
-            <p class="period">
+            <p class="period" id="coffeeman-period">
               May 2014 - May 2015 <span class="line">|</span> Ukraine
             </p>
             <ul class="work__list">
@@ -146,7 +152,7 @@
             </ul>
           </div>
         </div>
-        <!--Education-->
+        
         <div class="education">
           <h3 class="title">Education</h3>
           <h4 class="education__organization">GoIT</h4>
@@ -163,14 +169,14 @@
           <p class="period">September 2008 - February 2014 | Ukraine</p>
         </div>
       </div>
-      <!--Sidebar-->
+      
       <aside class="sidebar">
         <img
           src="img/photo_2021-12-29_14-02-15.jpg"
           alt="Artem Karpenko photo"
           class="photo"
         />
-        <!--Contacts-->
+        
         <div class="contacts">
           <h3 class="sidebar__title">Contacts</h3>
           <div>
@@ -200,7 +206,7 @@
             </p>
           </div>
         </div>
-        <!--TechSkills-->
+        
         <div class="techskills">
           <h3 class="sidebar__title">Tech Skills</h3>
           <ul class="skills__list">
@@ -209,7 +215,7 @@
             <li><span class="skills__item">JavaScript</span></li>
           </ul>
         </div>
-        <!--Softskills-->
+        
         <div class="softskills">
           <h3 class="sidebar__title">Soft Skills</h3>
           <ul class="skills__list">
@@ -220,7 +226,7 @@
             <li><span class="skills__item">Teamwork</span></li>
           </ul>
         </div>
-        <!--AdditionalSkills-->
+        
         <div class="addskills">
           <h3 class="sidebar__title">Additional Skills</h3>
           <ul class="skills__list">
@@ -232,5 +238,7 @@
         </div>
       </aside>
     </div>
+    </div>
+    <script src="./index.js"></script>
   </body>
 </html>

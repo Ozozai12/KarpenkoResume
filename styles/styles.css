@@ -9,11 +9,15 @@ body {
 }
 
 /* main styles */
-.main {
-	display: flex;
-	flex-direction: row-reverse;
+.container {
+	position: relative;
 	width: 1200px;
 	margin: 0 auto;
+}
+
+.main {
+	display: flex;
+	flex-direction: row-reverse;	
 }
 
 .main__content {
@@ -201,4 +205,33 @@ body {
 .icons {
 	margin-right: 15px;
 	fill: #ffffff;
+}
+
+.languages {
+	position: absolute;
+	top: 0;
+	right: 0;
+	top: 20px;
+	right: 20px;
+}
+
+.button {
+	width: 48px;
+	height: 48px;
+	background-color: #ffffff;
+	border: none;
+	cursor: pointer;
+	transition: transform 200ms linear;
+}
+
+.button:hover {
+	transform: scale(1.2);
+}
+
+.button.ukr {
+	background-image: url('/img/icons8-ukraine-48.png');
+}
+
+.button.eng {
+	background-image: url('/img/icons8-great-britain-48.png');
 }
