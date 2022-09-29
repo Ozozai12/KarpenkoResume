@@ -139,7 +139,7 @@ function onUkrLangChange() {
           <h3 class="title">Освіта</h3>
           <h4 class="education__organization">GoIT</h4>
           <h5 class="facultat">Full-Stack Developer</h5>
-          <p class="period">Березень 2022 і до сьогодні | Україна</p>
+          <p class="period">Березень 2022 і по сьогодні | Україна</p>
 
           <h4 class="education__organization">
             Національний технічний університет України <br />
@@ -156,6 +156,7 @@ function onUkrLangChange() {
         <img
           src="img/photo_2021-12-29_14-02-15.jpg"
           alt="Artem Karpenko photo"
+          height="555"
           class="photo"
         />
         
@@ -212,7 +213,7 @@ function onUkrLangChange() {
         <div class="addskills">
           <h3 class="sidebar__title">Додаткові навички</h3>
           <ul class="skills__list">
-            <li><span class="skills__item">Ліцензія водія кат.В</span></li>
+            <li><span class="skills__item">Водійське посвідчення кат.В</span></li>
             <li><span class="skills__item">AutoCAD</span></li>
             <li><span class="skills__item">Англійська - Intermediate</span></li>
             <li><span class="skills__item">Німецька - Intermediate</span></li>
@@ -378,6 +379,7 @@ function onEngLangChange() {
         <img
           src="img/photo_2021-12-29_14-02-15.jpg"
           alt="Artem Karpenko photo"
+          height="555"
           class="photo"
         />
         <!--Contacts-->
