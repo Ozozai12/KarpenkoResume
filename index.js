@@ -148,7 +148,7 @@ function onUkrLangChange() {
           <h5 class="facultat">
             Електромеханічні системи автоматизації та електропривод
           </h5>
-          <p class="period">Вересень 2008 - Лютий 2014 | Ukraine</p>
+          <p class="period">Вересень 2008 - Лютий 2014 | Україна</p>
         </div>
       </div>
       <!--Sidebar-->
